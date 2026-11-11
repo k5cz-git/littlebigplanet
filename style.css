@@ -1,0 +1,122 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e0e0e0;
+    color: #333;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+
+h1 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #2980b9;
+    margin-top: 20px;
+}
+
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+
+.highlight {
+    background-color: #e8f8f5;
+    border-left: 4px solid #1abc9c;
+    padding: 10px 15px;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+
+.game-item {
+    margin-bottom: 15px;
+}
+
+
+#dark-mode {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+}
+
+
+body.dark {
+    background-color: #171717;
+    color: white;
+}
+
+body.dark h1 {
+    color: #ffffff;
+}
+
+body.dark h2 {
+    color: #64b5f6;
+}
+
+body.dark .highlight {
+    background-color: #263b38;
+    color: white;
+}
+
+body.dark a {
+    color: #80c7ff;
+}
+
+body.dark #dark-mode {
+    background-color: #eeeeee;
+    color: #171717;
+}
+
+
+.game-item {
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    min-height: 150px;
+    position: relative;
+}
+
+.game-item h3,
+.game-item p {
+    background: rgba(0, 0, 0, 0.65);
+    padding: 8px;
+    border-radius: 6px;
+    color: white;
+}
+
+.game-item a {
+    text-decoration: none;
+}
+
+
+.jogo1 {
+    background-image: url("imagens/lbp1.jpg");
+    background-size: 90%;
+    background-position: center 78%;
+}
+
+.jogo2 {
+    background-image: url("imagens/lbp2.jpg");
+}
+
+.jogo3 {
+    background-image: url("imagens/lbp3.jpg");
+}
+
