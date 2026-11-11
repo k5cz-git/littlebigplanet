@@ -1,5 +1,4 @@
 
-
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -10,7 +9,6 @@ body {
     padding: 20px;
     transition: 0.3s;
 }
-
 
 h1 {
     color: #2c3e50;
@@ -23,12 +21,10 @@ h2 {
     margin-top: 20px;
 }
 
-
 ul {
     list-style-type: square;
     padding-left: 20px;
 }
-
 
 .highlight {
     background-color: #e8f8f5;
@@ -37,12 +33,6 @@ ul {
     margin: 15px 0;
     font-weight: bold;
 }
-
-
-.game-item {
-    margin-bottom: 15px;
-}
-
 
 #dark-mode {
     padding: 10px 15px;
@@ -53,14 +43,13 @@ ul {
     color: white;
 }
 
-
 body.dark {
     background-color: #171717;
     color: white;
 }
 
 body.dark h1 {
-    color: #ffffff;
+    color: white;
 }
 
 body.dark h2 {
@@ -80,7 +69,6 @@ body.dark #dark-mode {
     background-color: #eeeeee;
     color: #171717;
 }
-
 
 .game-item {
     padding: 25px;
@@ -105,18 +93,21 @@ body.dark #dark-mode {
     text-decoration: none;
 }
 
-
+/* LITTLEBIGPLANET 1 */
 .jogo1 {
-    background-image: url("imagens/lbp1.jpg");
+    background-image: url("./lbp1.jpg");
     background-size: 90%;
     background-position: center 78%;
 }
 
+/* LITTLEBIGPLANET 2 */
 .jogo2 {
-    background-image: url("imagens/lbp2.jpg");
+    background-image: url("./lbp2.jpg");
+    background-position: center;
 }
 
+/* LITTLEBIGPLANET 3 */
 .jogo3 {
-    background-image: url("imagens/lbp3.jpg");
+    background-image: url("./lbp3.jpg");
+    background-position: center;
 }
-

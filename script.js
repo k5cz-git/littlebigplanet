@@ -1,3 +1,4 @@
+
 const botao = document.getElementById("dark-mode");
 
 botao.addEventListener("click", function() {
